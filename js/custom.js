@@ -8,7 +8,7 @@ $(document).ready(function() {
         resolution: 'standard_resolution',
         accessToken: '1291858806.1677ed0.fd57ac45145b4c7abe62eaae70fb3d2b',
         sortBy: 'most-recent',
-        template: '<div class="col-lg-3 gallery instaimg"><a href="{{image}}" title="{{caption}}" target="_blank"><img src="{{image}}" alt="{{caption}}" class="img-fluid"/></a></div>',
+        template: '<div class="col-lg-3 instaimg"><a href="{{image}}" title="{{caption}}" target="_blank"><img src="{{image}}" alt="{{caption}}" class="img-fluid"/></a></div>',
     });
 
 
