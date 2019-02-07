@@ -1,7 +1,5 @@
 /*
-	Spectral by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+ created by Zack
 */
 
 /* Banner */
@@ -33,3 +31,17 @@
 
 
 	
+	/*youtube embedding*/
+	.video-responsive{
+		overflow:hidden;
+		padding-bottom:56.25%;
+		position:relative;
+		height:0;
+	}
+	.video-responsive iframe{
+		left:0;
+		top:0;
+		height:100%;
+		width:100%;
+		position:absolute;
+	}
